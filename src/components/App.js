@@ -1,4 +1,16 @@
 import React from "react";
+// import About from "About";
+
+function About() {
+  return (
+    <div id="about">
+
+      About
+
+    </div>
+
+  );
+}
 
 function NavBar() {
   return (
@@ -20,8 +32,8 @@ function App() {
   return (
     <div>
       <NavBar />
-      {/* add the <Home> component here */}
-      {/* write an <About> component here */}
+      <Home />
+      <About />
     </div>
   );
 }
